@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Roboto+Serif:ital,wght@1,100;1,200&family=Source+Serif+4:ital,wght@1,300&display=swap');
 
 body{
-    background-color:#eff4ff;
+  background: linear-gradient(145deg, #dffeff, #bbd5d8);
 }
 .todo {
     align-self: center;
@@ -61,6 +61,7 @@ body{
   }
   
   .todo ul li {
+    padding: 10px;
     list-style: none;
     margin-bottom: 4px;
     border: 2px solid black;
@@ -69,15 +70,14 @@ body{
     padding-left: 10px;
     padding-right: 5px;
     margin-left: -100px;
-    background-color: rgb(236, 236, 236, 0.6);
+    background: linear-gradient(145deg, #dffeff, #bbd5d8);
     color: black;
     width: 500px;
   }
   .todo ul li .delete {
-    margin-top: 5px;
+    margin-top: 1px;
     float: right;
-    padding: 4px 10px 4px 10px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
     background-color:red;
